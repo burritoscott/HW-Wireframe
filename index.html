@@ -10,43 +10,33 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- this container encompasses the whole body -->
+<div id="container">
 
-        <div class="header">
-            <header>header</header>
-        </div>
+    <!-- header and nav are block elements -->
+    <header>header</header>
+    <nav>nav</nav>
 
-        <div class="header">
-            <nav>nav</nav>
-        </div>
-
-        <div id="middle">
-            <div id="section">
-                <section>section</section>
-
-                    <div id="article">
-                        <article>article</article>
-                            <div id="paragraphs">
-                                <div id="paragraph1">
-                                    <p>h1, h2, h3</p>
-                                </div>
-
-                                <div id="paragraph2">
-                                    <p>p</p>
-                                </div>
-                            </div>
-                    </div>
-            </div>
-
-            <div id="aside">
-                <aside>aside</aside>
-            </div>
-        </div>
-
-        <div class="header">
-            <footer>footer</footer>
-        </div>
+    <!-- middle contains the section and aside block elements -->
+    <div id="middle">
+        <!-- section contains the article, h1 and p block elements -->
+        <section>
+            section
+            <article>
+                article
+                <h1>h1, h2, h3</h1>
+                <p>p</p>
+            </article>
+        </section>
+        <aside>
+            aside
+        </aside>
     </div>
 
+    <!-- footer is a block element -->
+    <footer>
+        footer
+    </footer>
+</div>
 </body>
 </html>
